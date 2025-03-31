@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="nums-container">
+        <div class="num-element"></div>
+        <div class="num-element"></div>
+        <div class="num-element"></div>
+        <div class="num-element"></div>
+        <div class="num-element"></div>
+        <div class="num-element"></div>
+    </div>
+
+    <div id="player-pick--container">
+        <form id="lotto-form">
+            <label for="number1">Wybierz 6 liczb (od 1 do 49):</label><br>
+            <input type="number" id="number1" min="1" max="49" required>
+            <input type="number" id="number2" min="1" max="49" required>
+            <input type="number" id="number3" min="1" max="49" required>
+            <input type="number" id="number4" min="1" max="49" required>
+            <input type="number" id="number5" min="1" max="49" required>
+            <input type="number" id="number6" min="1" max="49" required>
+        </form>
+        <button id="check-result">Sprawdź wyniki</button>
+        <button id="reset-btn">Reset</button>
+    </div>
+
+    <div id="score">
+        Wygrałeś łącznie: 0$
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
