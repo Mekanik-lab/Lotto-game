@@ -5,7 +5,6 @@ document.body.appendChild(messageContainer);
 let audio = new Audio('./audio/song.mp3');
 audio.preload = 'auto';
 audio.loop = true;
-audio.currentTime = 80;
 let isAudioPlayed = false;
 
 function showMessage(text, duration = 3000) {
