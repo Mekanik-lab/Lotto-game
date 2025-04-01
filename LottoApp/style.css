@@ -26,7 +26,7 @@ body, html {
     padding: 1.5rem;
     font-size: 1.7rem;
     border: 3px solid #24b343;
-    border-radius: 1rem;
+    border-radius: 50%;
     font-weight: 600;
     width: 5.2rem;
     height: 5.2rem;
